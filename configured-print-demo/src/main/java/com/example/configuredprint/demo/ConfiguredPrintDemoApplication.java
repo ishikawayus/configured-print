@@ -5,6 +5,7 @@ import com.example.configuredprint.ConfiguredPrintManager;
 public class ConfiguredPrintDemoApplication {
 
     public static void main(String[] args) {
-        System.out.println(ConfiguredPrintManager.hello());
+        String deviceName = "Microsoft Print to PDF";
+        ConfiguredPrintManager.helloWorld(deviceName);
     }
 }
